@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/lala"
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RK Rajib Khan"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorRK" />
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src="@drawable/capture"
+            android:scaleType="fitXY"
+         />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/layID"
+        >
+        <EditText
+            android:id="@+id/nameTxt"
+            android:layout_marginTop="50dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="Enter Name"
+            />
+        <Button
+            android:id="@+id/btnID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click"
+            android:textAllCaps="false"
+            android:onClick="showMessage"
+            />
+        <TextView
+            android:id="@+id/textViewID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check what are u want"
+            android:textSize="25dp"
+
+            />
+        <CheckBox
+            android:id="@+id/rajib_ck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rajib"
+            />
+        <CheckBox
+            android:id="@+id/rakib_ck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rakib"
+            />
+        <CheckBox
+            android:id="@+id/rrk_ck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RRK"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_ck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show"
+                android:onClick="showCK"
+
+                />
+            <Button
+                android:layout_marginLeft="15dp"
+                android:id="@+id/nextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:onClick="nextActivity"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/show_ck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

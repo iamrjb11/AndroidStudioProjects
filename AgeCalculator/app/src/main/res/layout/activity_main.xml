@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:text="Age at the Date "/>
+    <TextView
+        android:id="@+id/dateID3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:layout_marginBottom="10dp"
+        android:text="00-00-0000"
+        style="@style/TextAppearance.AppCompat.Body2"
+        />
+    <TextView
+        android:id="@+id/dateID4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginBottom="10dp"
+        android:text="00-00-0000"
+        />
+    <Button
+        android:id="@+id/pickerBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Date of Birth "
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:id="@+id/dateID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="27sp"
+        android:layout_marginBottom="10dp"
+        android:text="00-00-0000"
+        style="@style/TextAppearance.AppCompat.Body2"
+        />
+    <TextView
+        android:id="@+id/dateID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginBottom="10dp"
+        android:text="00-00-0000"
+        />
+    <Button
+        android:id="@+id/pickerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Date"
+        android:layout_marginBottom="10dp"
+
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+
+    <TextView
+        android:id="@+id/showAgeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:text="00 Y-00 M-00 D"
+        />
+    <Button
+        android:id="@+id/showAgeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Show Age"
+        />
+
+</LinearLayout>

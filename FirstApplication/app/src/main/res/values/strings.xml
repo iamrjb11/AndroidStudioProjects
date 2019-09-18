@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">First Application</string>
+    <string name="alert_name">Alert</string>
+    <string name="alert_msg">Do you want to select time ?</string>
+    <string name="longTxt">As a user navigates through, out of, and back to your app,
+        the Activity instances in your app transition through different states in their lifecycle.
+        The Activity class provides a number of callbacks that allow the activity to know that a state has changed:
+        that the system is creating, stopping, or resuming an activity, or destroying the process in which the activity resides.
+    Within the lifecycle callback methods, you can declare how your activity behaves when the user leaves and re-enters the activity.
+        For example, if you\'re building a streaming video player, you might pause the video and terminate the network connection
+        when the user switches to another app. When the user returns, you can reconnect to the network and allow the user to resume
+        the video from the same spot. In other words, each callback allows you to perform specific work that\'s appropriate to a given
+        change of state. Doing the right work at the right time and handling transitions properly make your app more robust and performant.
+    </string>
+    <string-array name="list_items">
+        <item>Rajib</item>
+        <item>Hasan</item>
+        <item>khokon</item>
+        <item>Chowdhury</item>
+        <item>Mim</item>
+        <item>Kalu</item>
+        <item>Mia</item>
+        <item>Cool</item>
+        <item>Magic</item>
+        <item>RRK</item>
+        <item>Nice</item>
+        <item>Mash</item>
+        <item>Cool</item>
+        <item>Cool</item>
+
+
+    </string-array>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

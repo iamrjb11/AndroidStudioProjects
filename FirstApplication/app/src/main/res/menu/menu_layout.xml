@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mac2"
+        android:title="MainActivity2"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/mac3"
+        android:title="MainActivity3"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/mac4"
+        android:title="MainActivity4"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/man"
+        android:title="RRK"
+        android:icon="@drawable/ic_face_black_24dp"
+        app:showAsAction="always"
+        />
+</menu>
